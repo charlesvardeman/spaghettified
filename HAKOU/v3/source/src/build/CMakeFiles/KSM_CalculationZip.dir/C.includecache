@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cvardema/Workspace/Projects/cemodelservice/api/HAKOU/HAKOU/v3/source/src/cmdline.c
+config.h
+/Users/cvardema/Workspace/Projects/cemodelservice/api/HAKOU/HAKOU/v3/source/src/config.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+getopt.h
+-
+cmdline.h
+/Users/cvardema/Workspace/Projects/cemodelservice/api/HAKOU/HAKOU/v3/source/src/cmdline.h
+
+/Users/cvardema/Workspace/Projects/cemodelservice/api/HAKOU/HAKOU/v3/source/src/cmdline.h
+config.h
+/Users/cvardema/Workspace/Projects/cemodelservice/api/HAKOU/HAKOU/v3/source/src/config.h
+stdio.h
+-
+

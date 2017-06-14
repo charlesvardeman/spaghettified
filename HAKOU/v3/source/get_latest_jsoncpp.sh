@@ -1,0 +1,1 @@
+curl -s -L https://github.com/open-source-parsers/jsoncpp/releases | egrep -o '/open-source-parsers/jsoncpp/archive/[0-9].[0-9].[0-9].tar.gz' | head -n1 |  wget --base=http://github.com/ -i - -O jsoncpp-latest.tar.gz

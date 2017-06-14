@@ -1,0 +1,9 @@
+package "Cybereye HAKOU model"
+version "0.3"
+purpose "Applies Moving Least Squares analysis to high fidelity data to rapidly estimate average wave height and surge results."
+usage "MLE_CalculationZip [options] inputDir outputDir longitude angle cp vf Rmax time"
+
+args "--unamed-opts"
+
+option "debug" - "Enable debug mode" flag off
+option "detonly" d "Input dataset is a wave dataset" flag off

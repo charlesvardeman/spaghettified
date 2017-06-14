@@ -1,0 +1,15 @@
+cmake_minimum_required (VERSION 2.6)
+ 
+project (KSM_CalculationZip)
+ 
+ADD_SUBDIRECTORY(src bin)
+ 
+SET(CMAKE_INSTALL_PREFIX ${PROJECT_BINARY_DIR})
+#SET(CMAKE_INSTALL_PREFIX /usr/local)
+#SET(CMAKE_BUILD_TYPE Debug)
+ 
+#INSTALL(PROGRAMS crnode.sh DESTINATION bin)
+ 
+#INSTALL(FILES COPYRIGHT README DESTINATION share/doc/crnode)
+ 
+#INSTALL(DIRECTORY doc/ DESTINATION share/doc/crnode)
